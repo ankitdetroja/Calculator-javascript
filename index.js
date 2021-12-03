@@ -42,12 +42,15 @@ function btnHit(e) {
     myCal = eval(myCal);
     myValue = "";
   } else {
-    // myCal = myCal.substring(0, myCal.length - 1);
     if (myOper.includes(myValue)) {
-      if (myOper.includes(lastChar)) {
-        myCal = myCal.substring(0, myCal.length - 1);
+      if (myCal == "" && myCal == 0) {
+        myCal = 0;
       } else {
-        myCal = eval(myCal);
+        if (myOper.includes(lastChar)) {
+          myCal = myCal.substring(0, myCal.length - 1);
+        } else {
+          myCal = eval(myCal);
+        }
       }
     }
   }
