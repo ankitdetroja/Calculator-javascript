@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.MyCalculator {
+  width: 345px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.output {
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: right;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  background-color: aquamarine;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin: 3.12px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 80px;
+  border-radius: 3px;
+  font-size: 1.1rem;
+}
